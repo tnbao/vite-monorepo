@@ -244,6 +244,11 @@ export interface BuildOptions {
    * @default null
    */
   watch?: WatcherOptions | null
+  /**
+   * Preserve assets directory structure
+   * @default false
+   */
+  preserveAssetsDir?: boolean
 }
 
 export interface LibraryOptions {
